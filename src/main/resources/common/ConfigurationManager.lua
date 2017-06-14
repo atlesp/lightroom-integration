@@ -70,7 +70,7 @@ function configurationManager.storeConfig(config )
 	end
 	fd:write('Config = {', "\n")
 	
-	addEntry(fd, 'input', config.input, '"', 'folder where the jobs are output by Lablink')
+	addEntry(fd, 'input', config.input, '"', 'folder where the jobs are output by RetouchLink')
 	addEntry(fd, 'user', config.user, '"', 'user id that is used to lock a job for other users when a job are grabbed')
 	
 	local dbgvalue
